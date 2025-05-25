@@ -1,5 +1,33 @@
-{
-    "təhsil": "Bakı Dövlət Universiteti, Kompüter Elmləri",
-    "iş": "Frontend Developer - Tech Company",
-    "bacarıq": "JavaScript, HTML, CSS, React"
-  }
+ {
+  "languages": [
+    "Azərbaycanca",
+    "İngiliscə",
+    "Rus dili"
+  ],
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Node.js"
+  ],
+  "projects": [
+    {
+      "title": "Portfolio Saytı",
+      "description": "Şəxsi portfolio HTML/CSS ilə"
+    },
+    {
+      "title": "Task Manager",
+      "description": "ToDo app JavaScript ilə"
+    }
+  ],
+  "certificates": [
+    "FreeCodeCamp - JavaScript",
+    "Coursera - Web Design"
+  ],
+  "interests": [
+    "Open Source",
+    "UI/UX",
+    "Texnologiya bloqları"
+  ]
+}

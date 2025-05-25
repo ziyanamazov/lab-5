@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ziya Namazov - CV</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Ziya Namazov</h1>
+    <div>
+      <button onclick="switchMode('view')">👁️ Görünüş</button>
+      <button onclick="switchMode('edit')">✏️ Redaktə</button>
+    </div>
+
+    <section>
+      <h2>
+        Dillər
+        <button onclick="toggleEdit('languages')">Düzəliş et</button>
+      </h2>
+      <ul id="languagesList"></ul>
+      <div id="languagesForm" class="edit-form">
+        <input type="text" id="newLanguage" placeholder="Yeni dil..." />
+        <button onclick="addItem('languages')">Əlavə et</button>
+      </div>
+    </section>
+
+    <section>
+      <h2>
+        Bacarıqlar
+        <button onclick="toggleEdit('skills')">Düzəliş et</button>
+      </h2>
+      <ul id="skillsList"></ul>
+      <div id="skillsForm" class="edit-form">
+        <input type="text" id="newSkill" placeholder="Yeni bacarıq..." />
+        <button onclick="addItem('skills')">Əlavə et</button>
+      </div>
+    </section>
+
+    <button onclick="saveData()">💾 Hamısını Saxla</button>
+    <button onclick="resetData()">🔄 Hamısını Sıfırla</button>
+  </div>
+
+  
+</body>
+</html>
